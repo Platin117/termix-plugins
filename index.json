@@ -4,7 +4,7 @@
   "name": "Platin117 Plugins",
   "apiVersion": 1,
   "publicKey": "B+k8cNP9XIKwkEPb1zzvIkh729mOKcDs/Q3vNM3dMlM=",
-  "updatedAt": "2026-11-05T18:48:00Z",
+  "updatedAt": "2026-11-09T21:56:20Z",
   "plugins": [
     {
       "id": "compact-layout",
@@ -134,6 +134,40 @@
           "releaseNotesUrl": "https://github.com/Platin117/termix-compact-layout/releases/tag/v1.6.1",
           "publishedAt": "2026-10-31T23:51:59Z"
         }
+      ]
+    },
+    {
+      "id": "snippet-terminals",
+      "versions": [],
+      "prereleases": [
+        {
+          "version": "0.7.0-beta.1",
+          "api": "1",
+          "url": "https://github.com/Platin117/termix-snippet-terminals/releases/download/v0.7.0-beta.1/snippet-terminals-0.7.0-beta.1.tmxplug",
+          "sha256": "55706639771178f27b16e51ab69161b1b0fc0dbb1c5e6c7399e25e6c1b369da7",
+          "signature": "9xaIz/8UtAI91roFDu0QTcqJ6gwqn8Ky6SjjWzZB74qBUzcA3kOlRoXWG5BI3JT5yVE7rs3iOL/JQg895DEEDA==",
+          "size": 47093,
+          "capabilities": [
+            "ui:surface",
+            "hosts:read"
+          ],
+          "releaseNotesUrl": "https://github.com/Platin117/termix-snippet-terminals/releases/tag/v0.7.0-beta.1",
+          "publishedAt": "2026-11-09T21:56:20Z"
+        }
+      ],
+      "name": "Snippet Terminals",
+      "description": "Start a saved snippet from one list: it opens a terminal tab per host and types the command in, where you can answer prompts and read what happened.",
+      "author": "Platin117",
+      "category": "Terminal",
+      "repository": "https://github.com/Platin117/termix-snippet-terminals",
+      "icon": "SquareTerminal",
+      "features": [
+        "Your snippets in a list, one click starts a run",
+        "One terminal tab per host, opened and connected for you",
+        "The connections are made side by side, not one after another",
+        "The hosts a snippet runs on are set once and remembered",
+        "Prompts, sudo questions and errors stay on screen",
+        "An offline host is skipped without holding up the rest"
       ]
     }
   ]
