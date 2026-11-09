@@ -4,7 +4,7 @@
   "name": "Platin117 Plugins",
   "apiVersion": 1,
   "publicKey": "B+k8cNP9XIKwkEPb1zzvIkh729mOKcDs/Q3vNM3dMlM=",
-  "updatedAt": "2026-11-09T21:56:20Z",
+  "updatedAt": "2026-11-09T22:10:44Z",
   "plugins": [
     {
       "id": "compact-layout",
@@ -138,21 +138,20 @@
     },
     {
       "id": "snippet-terminals",
-      "versions": [],
-      "prereleases": [
+      "versions": [
         {
-          "version": "0.7.0-beta.1",
+          "version": "1.0.0",
           "api": "1",
-          "url": "https://github.com/Platin117/termix-snippet-terminals/releases/download/v0.7.0-beta.1/snippet-terminals-0.7.0-beta.1.tmxplug",
-          "sha256": "55706639771178f27b16e51ab69161b1b0fc0dbb1c5e6c7399e25e6c1b369da7",
-          "signature": "9xaIz/8UtAI91roFDu0QTcqJ6gwqn8Ky6SjjWzZB74qBUzcA3kOlRoXWG5BI3JT5yVE7rs3iOL/JQg895DEEDA==",
-          "size": 47093,
+          "url": "https://github.com/Platin117/termix-snippet-terminals/releases/download/v1.0.0/snippet-terminals-1.0.0.tmxplug",
+          "sha256": "fb1d07490705595c4b442bc147f15f700a23887f4ed5db542bd3c5b11812a5da",
+          "signature": "MlmcXqDkDdy0jOI9nLyDdbF8A9EQVgqvHecFK1KUpIRyI2vI/0jPUEI6/5MTftdHkwhpkCDT1jy2n2p40pzBCw==",
+          "size": 47164,
           "capabilities": [
             "ui:surface",
             "hosts:read"
           ],
-          "releaseNotesUrl": "https://github.com/Platin117/termix-snippet-terminals/releases/tag/v0.7.0-beta.1",
-          "publishedAt": "2026-11-09T21:56:20Z"
+          "releaseNotesUrl": "https://github.com/Platin117/termix-snippet-terminals/releases/tag/v1.0.0",
+          "publishedAt": "2026-11-09T22:10:44Z"
         }
       ],
       "name": "Snippet Terminals",
