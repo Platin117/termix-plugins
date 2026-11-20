@@ -186,7 +186,11 @@
       "prereleases": [
         {
           "version": "2.0.0-beta.1",
-          "api": "1",
+          "api": "2",
+          "engine": {
+            "api": "^2.9.0",
+            "termix": ">=26.11.3-0"
+          },
           "url": "https://github.com/Platin117/termix-compact-layout/releases/download/v2.0.0-beta.1/compact-layout-2.0.0-beta.1.tmxplug",
           "sha256": "6e850efb0fc3938b57710cafea7c79a6ebf9e36bf5a9b7f747eb8aa8a8d338bc",
           "signature": "pkt84kGyhR5VEnHJIXaryLSxs/CzyyTiSi8Y5l7iCdBsEfO3qd15Y/9FYolcqI3AXpAJ/vyDKOyqDyVVI9MCDQ==",
@@ -237,7 +241,11 @@
       "prereleases": [
         {
           "version": "2.0.0-beta.1",
-          "api": "1",
+          "api": "2",
+          "engine": {
+            "api": "^2.9.0",
+            "termix": ">=26.11.2"
+          },
           "url": "https://github.com/Platin117/termix-snippet-terminals/releases/download/v2.0.0-beta.1/snippet-terminals-2.0.0-beta.1.tmxplug",
           "sha256": "50d5325d91076947fae3bda520bb043e2795a168fff81302ae335e70afa5e723",
           "signature": "Trlj0KTEnXTart4SiAYkjwTeFTOJhPzQWm+WRhqbzIqnqqMQGmUtgxrGWRGDlHgAt7soBg3PZEB59GHOvOSyAQ==",
