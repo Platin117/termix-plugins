@@ -4,7 +4,7 @@
   "name": "Platin117 Plugins",
   "apiVersion": 1,
   "publicKey": "B+k8cNP9XIKwkEPb1zzvIkh729mOKcDs/Q3vNM3dMlM=",
-  "updatedAt": "2026-11-21T13:56:42Z",
+  "updatedAt": "2026-11-21T13:56:46Z",
   "plugins": [
     {
       "id": "compact-layout",
@@ -208,6 +208,24 @@
       "id": "snippet-terminals",
       "versions": [
         {
+          "version": "2.0.0",
+          "api": "2",
+          "engine": {
+            "api": "^2.9.0",
+            "termix": ">=26.11.2"
+          },
+          "url": "https://github.com/Platin117/termix-snippet-terminals/releases/download/v2.0.0/snippet-terminals-2.0.0.tmxplug",
+          "sha256": "03b983c2b54cd22842abaea0e221a204b3adb8352244e46e0825bd6b1dbb7e4c",
+          "signature": "A2dcjJ3ZU83PczxpuukSgIfuGLb8zVHBjK2X6WVpCS6pBOIwkBun9AZSy99dQgP1Ex+zSKeXKBDrIVyL/Xh6Bg==",
+          "size": 47341,
+          "capabilities": [
+            "ui:surface",
+            "hosts:read"
+          ],
+          "releaseNotesUrl": "https://github.com/Platin117/termix-snippet-terminals/releases/tag/v2.0.0",
+          "publishedAt": "2026-11-21T13:56:46Z"
+        },
+        {
           "version": "1.0.0",
           "api": "1",
           "url": "https://github.com/Platin117/termix-snippet-terminals/releases/download/v1.0.0/snippet-terminals-1.0.0.tmxplug",
@@ -235,26 +253,6 @@
         "The hosts a snippet runs on are set once and remembered",
         "Prompts, sudo questions and errors stay on screen",
         "An offline host is skipped without holding up the rest"
-      ],
-      "prereleases": [
-        {
-          "version": "2.0.0-beta.1",
-          "api": "2",
-          "engine": {
-            "api": "^2.9.0",
-            "termix": ">=26.11.2"
-          },
-          "url": "https://github.com/Platin117/termix-snippet-terminals/releases/download/v2.0.0-beta.1/snippet-terminals-2.0.0-beta.1.tmxplug",
-          "sha256": "50d5325d91076947fae3bda520bb043e2795a168fff81302ae335e70afa5e723",
-          "signature": "Trlj0KTEnXTart4SiAYkjwTeFTOJhPzQWm+WRhqbzIqnqqMQGmUtgxrGWRGDlHgAt7soBg3PZEB59GHOvOSyAQ==",
-          "size": 47353,
-          "capabilities": [
-            "ui:surface",
-            "hosts:read"
-          ],
-          "releaseNotesUrl": "https://github.com/Platin117/termix-snippet-terminals/releases/tag/v2.0.0-beta.1",
-          "publishedAt": "2026-11-20T21:03:01Z"
-        }
       ]
     }
   ]
